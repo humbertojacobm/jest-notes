@@ -7,6 +7,9 @@ import { notStrictEqual } from "assert"
    era : jest src/__test__/randomStrings.test.js //jest
 ¿Shallow nos permite testear un componente?
  - no se.
-
+     - real unit test, isolation, not children render .
+ - mount:
+    - to test componentdidmount, componentdidupdate. Full rendering including child componentes. Requires DOM .. 
+  
 ¿Que comando utilizamos si queremos regenerar un snapshot?
- - no es jest updateSnaphost
+ - no es jest --updateSnapshot
