@@ -30,5 +30,5 @@ describe('Header snaptsho', () => {
   });
 });
 
-//jest updateSnapshot :
+//jest --updateSnapshot :
 // in case you need change your footer or header tags and elements, you can update your snapshots.

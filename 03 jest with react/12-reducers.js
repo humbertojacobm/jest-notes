@@ -3,7 +3,7 @@
 //     reducers.test.js
 
 import reducer from '../../reducers';
-import Product from '../../__mocks__/ProductMock';
+import ProductMock from '../../__mocks__/ProductMock';
 
 describe('Reducers', () => {
     //01. the first test is the return the initial stage.

@@ -33,7 +33,7 @@ import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter()});
 //02. we add this to be able to catch requests without browser.
-global.fetch = require('jest-fecth-mock');
+global.fetch = require('jest-fetch-mock');
 
 //03. npm install jest-fetch-mock --save-dev
 

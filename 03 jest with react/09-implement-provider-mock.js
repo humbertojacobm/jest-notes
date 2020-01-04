@@ -54,7 +54,7 @@ import React from 'React';
 import {mount, shallow} from "enzyme";
 import ProviderMock from '../../__mocks__/ProviderMock';
 import ProductMock from '../../__mocks__/ProductMock';
-import Product from '../../components/Products';
+import Product from '../../components/Product';
 
 describe ('<Product/>', () => {
   test('Render del componente product', () => {

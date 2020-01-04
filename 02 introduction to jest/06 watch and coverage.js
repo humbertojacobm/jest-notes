@@ -56,8 +56,9 @@ describe('Probar funcionalidades de randomStrings', () => {
 
 // it will show a report in console.
 
-//coverage
-// ... index.html 
+//src/
+//  coverage/
+//    ... index.html 
 // that file open the report about the coverage of the proyect.
 
 
